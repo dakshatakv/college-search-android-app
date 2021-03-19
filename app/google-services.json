@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "897454942587",
+    "firebase_url": "https://future-dictionary-b5d58.firebaseio.com",
+    "project_id": "future-dictionary-b5d58",
+    "storage_bucket": "future-dictionary-b5d58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897454942587:android:d09d1756e0ac93e57175de",
+        "android_client_info": {
+          "package_name": "com.example.futuredictionary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897454942587-f4ou4a3ico1768nqk5rs302v26q1c4hi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.futuredictionary",
+            "certificate_hash": "8b2a2d9f71be83d1d07e19d854bae74b2b853509"
+          }
+        },
+        {
+          "client_id": "897454942587-c482tq2mevdri4j4ouiemq1ahbkhv4hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdtHCwPDV6s_F30PGMJtRivQ2_GZKfklw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897454942587-c482tq2mevdri4j4ouiemq1ahbkhv4hu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

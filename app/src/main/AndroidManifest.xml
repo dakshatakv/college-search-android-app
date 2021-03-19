@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.futuredictionary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NotificationPage" />
+        <activity android:name=".Virudhunagar" />
+        <activity android:name=".Villupuram" />
+        <activity android:name=".Vellore" />
+        <activity android:name=".Tuticorin" />
+        <activity android:name=".Trichy" />
+        <activity android:name=".Tiruvarur" />
+        <activity android:name=".Tiruvanamalai" />
+        <activity android:name=".Tiruvallur" />
+        <activity android:name=".Tirupur" />
+        <activity android:name=".Tirunelveli" />
+        <activity android:name=".Theni" />
+        <activity android:name=".Thanjavur" />
+        <activity android:name=".Sivagangai" />
+        <activity android:name=".Salem" />
+        <activity android:name=".Ramnad" />
+        <activity android:name=".Pudukottai" />
+        <activity android:name=".Perambalur" />
+        <activity android:name=".Nilgiris" />
+        <activity android:name=".Namakkal" />
+        <activity android:name=".Nagapattinam" />
+        <activity android:name=".Madurai" />
+        <activity android:name=".Krishnagiri" />
+        <activity android:name=".Karur" />
+        <activity android:name=".Kanyakumari" />
+        <activity android:name=".Kanchipuram" />
+        <activity android:name=".Erode" />
+        <activity android:name=".Dindigul" />
+        <activity android:name=".Dharmapuri" />
+        <activity android:name=".Cuddalore" />
+        <activity android:name=".Coimbatore" />
+        <activity android:name=".Chennai" />
+        <activity android:name=".Ariyalur" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Notification" />
+        <activity android:name=".Exams" />
+        <activity android:name=".Search" />
+        <activity android:name=".Home" />
+        <activity android:name=".CodeVerification" />
+        <activity android:name=".Menu" />
+        <activity android:name=".ForgotPasswordSuccessMessage" />
+        <activity android:name=".SetNewPassword" />
+        <activity android:name=".ForgotPasswordViaPhone" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

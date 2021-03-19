@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/collegeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="College Name"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/happy_monkey" />
+
+        <TextView
+            android:id="@+id/collegeCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/collegeName"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/cousine_bold"
+            android:text="College Code: "
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/collegeAffliatedBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Affliated by: "
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/cousine_bold"
+            android:layout_below="@id/collegeCode" />
+
+        <TextView
+            android:id="@+id/collegePhoneNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact:"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/cousine_bold"
+            android:layout_below="@id/collegeAffliatedBy" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

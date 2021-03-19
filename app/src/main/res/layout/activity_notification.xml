@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Notification"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="210dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_baseline_notifications_24" />
+
+    <Button
+        android:id="@+id/notificationBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here to get a Latest Update about Engineering Exams and Colleges"
+        android:background="@color/lightBrown"
+        android:layout_margin="40dp"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/happy_monkey"
+        android:layout_gravity="center" />
+
+</LinearLayout>

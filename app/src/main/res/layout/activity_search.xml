@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search"
+    android:layout_margin="5dp">
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="390dp"
+        android:layout_height="56dp"
+        android:hint="Search College"
+        android:textSize="25sp"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"
+        android:drawableStart="@drawable/ic_baseline_search_college"
+        android:drawableLeft="@drawable/ic_baseline_search_college"
+        android:drawablePadding="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/muli_semibold"
+        android:textColorHint="@color/colorPrimaryDark" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_college_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search"
+        android:padding="4dp"/>
+
+</RelativeLayout>

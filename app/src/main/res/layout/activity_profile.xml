@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/ic_baseline_person_24_profile" />
+
+    <TextView
+        android:id="@+id/email_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/raleway_semibold"
+        android:textSize="25sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_gravity="center"
+        android:text="email" />
+
+
+    <Button
+        android:id="@+id/log_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/lightBrown"
+        android:textSize="20sp"
+        android:layout_margin="40dp"
+        android:fontFamily="@font/happy_monkey"
+        android:padding="20dp"
+        android:text="Logout of future dictionary" />
+
+    <Button
+        android:id="@+id/reset_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/happy_monkey"
+        android:text="@string/reset_password"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>
